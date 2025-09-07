@@ -7,7 +7,7 @@ from entmax import sparsemax, entmax15
 import numpy as np
 
     
-class NCARClassifier():
+class NCARTClassifier():
 
     def __init__(self, 
                 n_trees=32,
@@ -205,7 +205,7 @@ class NCARClassifier():
             return self.model.feature_importance(self.X)   
     
     
-class NCARRegressor():
+class NCARTRegressor():
 
     def __init__(self, 
                 n_trees=32,
